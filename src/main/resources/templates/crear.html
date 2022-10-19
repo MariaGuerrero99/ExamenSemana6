@@ -28,6 +28,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 
                             <label  class="col-md-2 col-form-label" for="nombre">Nombre</label>
                             <div class="col-sm-10">
+                                 <!--<select  th:field="*{nombre}" class="form-control form-control-sm col-md-6" id="Nombre" aria-describedby="emailHelp">
+
+                                    <option th:each="x:${peliculas}"
+                                            th:value="${x.id}"
+                                            th:text="${x.nombre}"/>
+                                     </select> -->
 
                                 <input type="text" class="form-control form-control-sm col-md-6" th:field="*{nombre}"  placeholder= "Nombre Peliucla" id="nombres" aria-describedby="emailHelp">
                             </div>
